@@ -1,33 +1,110 @@
 body{
-background-color: lightgrey;
-
-
-
-}
-
-h2 {
   text-align: left;
-  color: blue;
+  margin: 0;
+  font-family: "Montserrat";
+
+
+
 }
-li{
+
+#title {
+  background-color: #CEE5D0;
+  color:#fff;
+
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.contatiner-fluid{
+  padding: 3% 15%;
+
+}
+
+h1{
+  font-family: Montserrat;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+.tennisbilde{
+height: 100px;
+
+}
+.middle-container{
+
+
+}
+hr{
+
+border-style: none;
+border-top-style:dotted;
+border-width: 5px;
+width: 6%;
+text-align: center;
 color: grey;
+}
+
+.middle-container{
+  padding-top: 5px;
+  background-color: #F9D5A7;
+  margin:0px;
+  border: 0;
+  width: 100%;
 
 }
 
-.viktig {
-  font-size: 20px;
-  font-style: italic;
+#features {
+  padding: 7% 15%;
+
 }
 
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
+.feature-box{
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+  padding: 4%;
+
+}
+
+h3{
+  font-family: "Montserrat-Bold";
+  font-size: 1.5rem;
+
+}
+
+p{
+  color:#8f8f8f;
+  font-family: monospace;
+
+}
+.bottom-container{
+  padding-top: 5px;
+  background-color: #FF6D6D;
+  margin:0px;
+  border: 0;
+  width: 100%;
+
+}
+
+.bottom-left{
+  text-align: left;
+  margin-left: 2em;
+}
+
+.icon{
+  color:#2F86A6;
+  margin-bottom: 1rem;
+
+}
+
+.icon:hover{
+  color:#32C1CD;
+
 }
